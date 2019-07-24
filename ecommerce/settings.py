@@ -8,7 +8,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
-import env
+
 import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -24,7 +24,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bbc791412408416389d3acaa19908668.vfs.cloud9.us-east-1.amazonaws.com']
+ALLOWED_HOSTS = ['bbc791412408416389d3acaa19908668.vfs.cloud9.us-east-1.amazonaws.com', 'ecommerce-app-francis.herokuapp.com']
 
 
 # Application definition
